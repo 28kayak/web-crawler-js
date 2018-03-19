@@ -1,0 +1,25 @@
+{
+  "name": "02-analize",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaya",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/28kayak/web-crawler-js.git"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "bugs": {
+    "url": "https://github.com/28kayak/web-crawler-js/issues"
+  },
+  "homepage": "https://github.com/28kayak/web-crawler-js#readme",
+  "description": "",
+  "dependencies": {
+    "cheerio-httpcli": "^0.7.2"
+  }
+}
