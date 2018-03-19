@@ -1,12 +1,12 @@
 download(
-	"http://www.aozora.gr.jp/index_pages/person81.html" 
-	"miyawazakenji.html" 
+	"http://www.aozora.gr.jp/index_pages/person81.html", 
+	"./downloaded_html/miyawazakenji.html" ,
 	function(){
 		console.log("Ok, Kenji");
 	});//end of download 
 download(
-	"http://www.aozora.gr.jp/index_pages/person148.html" 
-	"natumesouseki.html"
+	"http://www.aozora.gr.jp/index_pages/person148.html" ,
+	"./downloaded_html/natumesouseki.html",
 	function(){
 		console.log("Ok, soseki");
 	});//end of download 

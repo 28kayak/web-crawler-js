@@ -2,7 +2,7 @@
 //set url 
 var url = "http://kujirahand.com/";
 //set path to save 
-var savepath = "test.html"
+var savepath = "./downloaded_html/test.html"
 
 //get module 
 var http = require("http")
