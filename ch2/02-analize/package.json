@@ -20,6 +20,8 @@
   "homepage": "https://github.com/28kayak/web-crawler-js#readme",
   "description": "",
   "dependencies": {
-    "cheerio-httpcli": "^0.7.2"
+    "cheerio-httpcli": "^0.7.2",
+    "fs": "0.0.1-security",
+    "request": "^2.85.0"
   }
 }
