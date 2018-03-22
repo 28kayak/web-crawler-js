@@ -21,7 +21,7 @@ client.fetch(url, params, function (err, $, res){
 		var href = $(this).attr('href');
 		if(!href){
 			return;
-		}
+	}
 		//convert relative path to absolute path 
 		var href2 = URL.resolve(url, href);
 		//show the result 
