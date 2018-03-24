@@ -8,19 +8,20 @@ var path = require("path");
 //shared setting 
 var LINK_LEVEL = 3;
 	// body...
-}
+
 //Nakahara Chuya
 //var TARGET_URL = "http://www.aozora.gr.jp/index_pages/person26.html"
 var TARGET_URL = "https://www.uta-net.com/songs/";
 //"http://nodejs.jp/nodejs.org_ja/docs/v0.10/api/";
 var list = {};
-var 
+var counter = 0;
 
 downloadRec(TARGET_URL, 0);
 
 
-function downloadRec(url, level)
+function downloadRec(url, level, counter)
 {
+	counter ++;
 	console.log("Start Downloading : " + url);
 	//check level reaches to given 
 	if(level >= LINK_LEVEL)
@@ -73,7 +74,7 @@ function downloadRec(url, level)
 				//define file names 
 				if (url.substr(url.length-1, 1)== '/')
 				{
-					url += "index.html"; // automatically add index page 
+					url += counter.toString() + "/index.html"; // automatically add index page 
 				}
 				var save_path = url.split("/").slice(2).join("/");
 				checkSaveDir(save_path);

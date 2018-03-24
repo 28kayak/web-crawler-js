@@ -1,0 +1,22 @@
+{
+	"fruits":
+	{"$":{"shop":"AAA"},
+		"item":
+		[
+			{"_":"Bnana","$":{"price":"140"}},
+			{"_":"Apple","$":{"price":"220"}}
+		]
+	}
+}
+
+
+-----------------------------------------------------------------
+$ means attributes 
+_ means elements 
+
+
+That means, 
+shop AAA is an attribute of "fruits"
+Banana with price 140 is an element of fruits 
+Apple with price 220 is another element of fruits 
+
