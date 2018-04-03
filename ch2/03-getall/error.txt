@@ -1,0 +1,18 @@
+www.aozora.gr.jp/index_pages/person1482.html
+
+/home/kaya/Documents/web_crawler_js/ch2/03-getall/get_all.js:44
+			$("a").each(function(idx){
+			^
+www.aozora.gr.jp/index_pages/person_all.html
+
+/home/kaya/Documents/web_crawler_js/ch2/03-getall/get_all.js:45
+			$("a").each(function(idx){
+			^
+
+
+www.aozora.gr.jp/index_pages/person1262.html
+
+/home/kaya/Documents/web_crawler_js/ch2/03-getall/get_all.js:45
+			$("a").each(function(idx){
+
+
